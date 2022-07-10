@@ -3,7 +3,7 @@ import os
 from csv import reader
 # Data from the question
 DataLst = []
-absolutePath = os.path.abspath('DataList.csv')
+absolutePath = os.path.abspath('Resources/DataList.csv')
 with open(absolutePath, 'r') as read_obj:
        csv_reader = reader(read_obj)
        header = next(csv_reader)
